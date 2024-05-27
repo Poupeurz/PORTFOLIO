@@ -1,15 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mon portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta type="description" content="Bienvenu sur mon portfolio" />
+    <meta name="description" content="Bienvenu sur mon portfolio" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
 </head>
-<body>
-    
-</body>
 
-<script> src="js/app.js"</script>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button class="header-menu-mobile">
+                    <span class="material-icons menu-icon">menu</span>
+                </button>
+                <a href="#accueil" class="header-logo">
+                    <img src="img/html-logo.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider" id="accueil">
+        <img class="slider-background" src="img/slider.jpg">
+        <div class="slider-content">
+            <h1>Poupeau Mathieu</h1>
+            <p>Étudiant en deuxième année de BTS SIO</p>
+        </div>
+    </div>
+
+    <div class="section" id="a-propos">
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                    <h2>À propos de moi</h2>
+                </div>
+                <div class="w40 wm100">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a odio viverra, rhoncus lectus quis, placerat orci. Cras ultrices et ipsum id bibendum. Mauris lacinia, erat nec tristique ornare, sem diam suscipit libero, eget posuere nulla leo non urna. Duis sit amet lectus ut nisi facilisis dictum. In hac habitasse platea dictumst. Sed in libero tempus, ultrices turpis sit amet, euismod orci. Maecenas eget elit mi. Suspendisse id dignissim diam, fringilla interdum magna. Cras varius imperdiet leo non vulputate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="competences">
+        <div class="boxed center">
+            <h2>Mes compétences</h2>
+            <div class="flex toColumn gap20">
+                <div class="w25 wm100 skill">
+                    <img src="img/html-logo.png">
+                    <h3>HTML</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/css-logo.png">
+                    <h3>CSS</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/php-logo.png">
+                    <h3>PHP</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/js-logo.png">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="realisations">
+        <div class="boxed center">
+            <h2>Mes réalisations</h2>
+            <div class="flex wrap gap20 space-between">
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/Projet-vitesse.png">
+                        <h3>Projet vitesse</h3>
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/Projet-vitesse.png">
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/Projet-vitesse.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="contact">
+        <div class="boxed center">
+            <h2>Contactez-moi</h2>
+            <div class="flex toColumn gap20 space-between">
+                <div class="w32 wm80 contact">
+                    <span class="material-icons icon">contact_mail</span>
+                    <span class="label">E-mail</span>
+                    <span class="value">test@test.fr</span>
+                </div>
+                <div class="w32 wm80 contact">
+                    <span class="material-icons icon">contact_mail</span>
+                    <span class="label">E-mail</span>
+                    <span class="value">test@test.fr</span>
+                </div>
+                <div class="w32 wm80 contact">
+                    <span class="material-icons icon">contact_mail</span>
+                    <span class="label">E-mail</span>
+                    <span class="value">test@test.fr</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
 </html>
