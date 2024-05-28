@@ -94,32 +94,77 @@
             <h2>Mes réalisations</h2>
             <div class="flex wrap gap20 space-between">
                 <div class="w32 wm47 realisation">
-                    <a href="https://github.com/COQUILLAU/Site-tournoi">
-                        <img src="img/Tounrois.jpg">
+                        <img src="img/Tounrois.jpg" class="gallery-image" data-carousel="carousel1">>
                         <h4>Projet Tournois</h4>
                     </a>
                 </div>
                 <div class="w32 wm47 realisation">
-                    <a href="https://github.com/Poupeurz/Quiz-app">
-                        <img src="img/android.png">
+                        <img src="img/android.png" class="gallery-image" data-carousel="carousel2">>
                         <h4>Pojet quizz android</h4>
                     </a>
                 </div>
                 <div class="w32 wm47 realisation">
-                    <a href="https://github.com/Poupeurz/ufolep1-main">
-                        <img src="img/Ufolep.png">
+                        <img src="img/Ufolep.png" class="gallery-image" data-carousel="carousel3">>
                         <h4>Pojet ufolep</h4>
                     </a>
                 </div>
                 <div class="w32 wm47 realisation">
-                    <a href="https://trello.com/b/md6Q5Fnp/documentation-technique">
-                        <img src="img/Trello-Logo.webp">
+                        <img src="img/Trello-Logo.webp" class="gallery-image" data-carousel="carousel4">>
                         <h4>Trello</h4>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="carousel1" class="carousel">
+        <span class="close">&times;</span>
+        <div class="carousel-content">
+            <img class="carousel-image" src="img/Tournois/Menu_tournoi.jfif" alt="Menu_tournoi">
+            <img class="carousel-image" src="img/Tournois/tournois1.jfif" alt="tournois1">
+            <img class="carousel-image" src="img/Tournois/tournois2.jfif" alt="tournois2">
+            <img class="carousel-image" src="img/Tournois/tournois3.jfif" alt="tournois3">
+            <img class="carousel-image" src="img/Tournois/bracket.jfif" alt="bracket">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <div id="carousel2" class="carousel">
+        <span class="close">&times;</span>
+        <div class="carousel-content">
+            <img class="carousel-image" src="/img/Android/" alt="Carrousel Image 2-1">
+            <img class="carousel-image" src="/img/Android/" alt="Carrousel Image 2-2">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <div id="carousel3" class="carousel">
+        <span class="close">&times;</span>
+        <div class="carousel-content">
+            <img class="carousel-image" src="img/UFOLEP/championnats.png" alt="championnats">
+            <img class="carousel-image" src="img/UFOLEP/departemental.png" alt="departemental">
+            <img class="carousel-image" src="img/UFOLEP/identhification.png" alt="identhification">
+            <img class="carousel-image" src="img/UFOLEP/joueurs.png" alt="joueurs">
+            <img class="carousel-image" src="img/UFOLEP/nouveau_joueur.png" alt="nouveau_joueur">
+            <img class="carousel-image" src="img/UFOLEP/rencontre.png" alt="rencontre">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <div id="carousel4" class="carousel">
+        <span class="close">&times;</span>
+        <div class="carousel-content">
+            <img class="carousel-image" src="img/Trello/Trello1.png" alt="Trello">
+            <img class="carousel-image" src="img/Trello/Trello2.png" alt="Trello">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+<!-- Debut Footer M si souhaite de suppression du Footer mettre un espace apres les deux traits -->
 
     <div class="section dark" id="contact">
         <div class="boxed center">
@@ -128,11 +173,48 @@
                 <div class="w32 wm80 contact">
                     <span class="material-icons icon">contact_mail</span>
                     <span class="label">E-mail</span>
-                    <span class="value">mathieu.poupeau@outlook.com</span>
+                    <span class="value"><a href="mailto:mathieu.poupeau@outlook.com">mathieu.poupeau@outlook.com</a></span>
                 </div>
             </div>
         </div>
     </div>
+
+<!-- Fin Footer M-->
+
+<!-- Debut Footer D si souhaite de suppression du Footer mettre un espace apres les deux traits -->
+
+    <footer>
+        <div class="footer-columns center dark" id="contact">
+            <div class="contact-column">
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="mailto:mathieu.poupeau@outlook.com">Email : mathieu.poupeau@outlook.com</a></li>
+                    <li>Téléphone : 06 13 48 26 26</li>
+                    <li><a href="https://maps.app.goo.gl/6DtJE6f48jsvXCb2A">Adresse : 4 Rue du Breuil, 17300 Rochefort</a></li>
+                </ul>
+            </div>
+            <div class="useful-links-column">
+                <h5>Liens Utiles</h5>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="bts-column">
+                <h5>Brevet de Technicien Supérieur</h5>
+                <ul>
+                    <li><a href="img/Footer/TempTab.jfif">Tableau de synthèse</a></li>
+                    <li><a href="img/Footer/ReferentielE4.pdf">Référenciel BTS SIO</a></li>
+                    <li><a href="https://github.com/Poupeurz/">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<!-- Fin Footer D-->
 
     <script src="js/app.js"></script>
 </body>
