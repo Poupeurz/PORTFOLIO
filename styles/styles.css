@@ -170,7 +170,7 @@ img.clickable:hover {
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 40%;
+    max-width: 37%;
 }
 
 #caption {
@@ -238,6 +238,7 @@ img.clickable:hover {
     object-fit: cover;
     filter: brightness(40%);
     transition: .4s ease;
+    border-radius: 5%;
 }
 
 .realisation:hover img {
