@@ -44,6 +44,12 @@ h2 {
     color: #a4a4a4;
 }
 
+h4 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
 p {
     font-size: 1.5rem;
     line-height: 1.5em;
@@ -217,7 +223,7 @@ img.clickable:hover {
     position: relative;
 }
 
-.realisation h3 {
+.realisation h4 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -248,7 +254,7 @@ img.clickable:hover {
     filter: brightness(70%);
 }
 
-.realisation:hover h3 {
+.realisation:hover h4 {
     opacity: 1;
 }
 
